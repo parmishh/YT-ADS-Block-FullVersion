@@ -1,0 +1,43 @@
+html,
+body {
+  font-size: 1rem;
+  width: 300px;
+  min-height: 100px;
+  transition: color 200ms, background-color 300ms;
+  background-color: #e5e7eb;
+  user-select: none;
+  border:box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  //background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2rem 1.5rem;
+  background-image: url('../backside.png');
+
+}
+
+.container .title {
+  display: flex;
+  justify-content: space-between;
+  color: #3f3f3f;
+}
+
+
+.container .ad {
+  margin-top: 0.5rem;
+  border-top: 0.1rem solid #9a9a9a2e;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.container .ad a {
+  color: #1c64f2;
+}
